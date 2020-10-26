@@ -4,7 +4,7 @@
 git init 
 git add README.md
 git commit -am "first commit"
-git remote add origin https://github.com/NTU_speech-lab/hw0-cyhuang-tw.git
+git remote add origin https://github.com/philipdongfei/ML_TW.git 
 git push -u origin master
 
 ##pyenv
@@ -16,6 +16,5 @@ exec "$SHELL"
 pyenv install 3.6.8
 
 rm -rf $PYENV_ROOT
-
 
 
