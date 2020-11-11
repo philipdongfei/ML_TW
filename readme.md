@@ -17,4 +17,9 @@ pyenv install 3.6.8
 
 rm -rf $PYENV_ROOT
 
+##notebook
+https://datawhalechina.github.io/leeml-notes
+
+##spide
+http://speech.ee.ntu.edu.tw/~tlkagk/courses_ML17.html
 
