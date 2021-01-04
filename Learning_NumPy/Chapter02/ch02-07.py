@@ -1,0 +1,35 @@
+import numpy as np
+
+a = np.arange(12).reshape(3,4)
+print(a)
+print(np.transpose(a))
+print(np.transpose(a, (1,0)))
+
+b = np.arange(6)
+print(b)
+print(np.transpose(b))
+print(b.shape)
+b = b.reshape((1,6))
+print(b)
+print(np.transpose(b))
+
+c = np.arange(24).reshape(4,3,2)
+print(c)
+print(np.transpose(c))
+print(np.transpose(c, (1,0,2)))
+print(c.transpose())
+print(c.shape)
+print(c.transpose().shape)
+print(c.transpose((1,0,2)))
+print(c.transpose((1,0,2)).shape)
+
+print(a)
+print(a.T)
+print(b)
+print(b.T)
+print(c)
+print(c.T)
+print(a.transpose().shape == a.T.shape)
+print(b.transpose().shape == b.T.shape)
+print(c.transpose().shape == c.T.shape)
+
